@@ -102,81 +102,6 @@
   -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5) !important; }
 
-/*-------------------------------*\
-    Glosaire
-\*-------------------------------*/
-/*#intro.box.generalbox.py-3 p:first-of-type  {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: $white;
-    background: $theme_color1;
-}
-#intro.box.generalbox.py-3 p:first-of-type {
-    margin-bottom: 0;
-    font-weight: 700;
-    font-size: 22px;
-    text-align: center;
-}
-#intro.box.generalbox.py-3 p:first-of-type:before {
-    display: block;
-    content: '';
-    width: 47px;
-    height: 54px;
-    margin: 0 auto 5px;
-    background: url("https://recitfad.ca/widgets/assets/images/ico-glossaire.svg") ;
-	background-repeat: no-repeat;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-}
-*/
-#page-mod-quiz-view .card-body h2:first-of-type {
-  /*padding-left: 20px;
-  padding-right: 20px;*/
-  vertical-align: baseline;
-  color: #ffffff;
-  background: #009bcd; }
-
-#page-mod-quiz-view .card-body h2:first-of-type {
-  /*margin-left: 50px;*/
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 22px;
-  /*text-align: center;*/ }
-
-#page-mod-quiz-view .card-body h2:first-of-type:before {
-  display: inline-block;
-  /*padding-right:50px;*/
-  content: '';
-  width: 47px;
-  height: 47px;
-  vertical-align: middle;
-  /* margin: 0 auto 5px;*/
-  background: url("https://recitfad.ca/widgets/assets/images/target.svg");
-  background-repeat: no-repeat;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto; }
-
-.form.form-inline.m-b-1 {
-  padding: 20px 20px 0;
-  background: #FEC100;
-  margin-bottom: 0 !important; }
-
-.form.form-inline.m-b-1 .form-control {
-  border: solid 1px #009bcd;
-  margin: 0 4px 4px 0; }
-
-.form.form-inline.m-b-1 .form-control:focus {
-  border-color: #009bcd;
-  -webkit-box-shadow: 0 0 0 0.2rem #61c08b;
-  box-shadow: 0 0 0 0.2rem #61c08b; }
-
-.form.form-inline.m-b-1 input[type="radio"], .form.form-inline.m-b-1 input[type="checkbox"] {
-  margin-right: 4px; }
-
 .btn.btn-secondary.m-r-1,
 .form.form-inline.m-b-1 .btn.btn-secondary {
   color: #ffffff;
@@ -5521,6 +5446,12 @@ body.coursepresentation-cover .headerbkg {
 #page-header .card {
   background-image: url("[[pix:theme|banner-course]]"); }
 
+#page-header .card {
+  background-repeat: no-repeat; }
+
+#page-header .card {
+  background-position: right top; }
+
 body.drawer-open-right {
   margin-right: 260px; }
 
@@ -5549,6 +5480,11 @@ body.drawer-open-right [data-region="blocks-column"] {
 /*#region-main{
 	padding: 0px;
 }*/
+.alert-info, #page-admin-index .releasenoteslink, #adminsettings .form-overridden, .que .formulation, .assignfeedback_editpdf_widget .label {
+  color: #373a3c;
+  background-color: #f1f1f1;
+  border: solid 1px #ccc; }
+
 .moodle-dialogue {
   z-index: 1000 !important; }
 
@@ -6274,6 +6210,15 @@ body, #page-content, #page-header, #top-footer .row{
   padding-bottom: 20px; }
 #page-mod-glossary-view .glossaryexplain {
   padding-top: 20px; }
+@media screen and (min-width: 768px) {
+  #page-mod-glossary-view #intro.box.generalbox.py-3 p:before {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    float: left; }
+  #page-mod-glossary-view #intro.box.generalbox.py-3 p {
+    font-size: 27px;
+    line-height: 54px;
+    text-align: left; } }
 
 #page-mod-quiz-view .card-body h2:first-of-type {
   /*padding-left: 20px;
@@ -6303,23 +6248,6 @@ body, #page-content, #page-header, #top-footer .row{
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto; }
-
-.form.form-inline.m-b-1 {
-  padding: 20px 20px 0;
-  background: #FEC100;
-  margin-bottom: 0 !important; }
-
-.form.form-inline.m-b-1 .form-control {
-  border: solid 1px #009bcd;
-  margin: 0 4px 4px 0; }
-
-.form.form-inline.m-b-1 .form-control:focus {
-  border-color: #009bcd;
-  -webkit-box-shadow: 0 0 0 0.2rem #61c08b;
-  box-shadow: 0 0 0 0.2rem #61c08b; }
-
-.form.form-inline.m-b-1 input[type="radio"], .form.form-inline.m-b-1 input[type="checkbox"] {
-  margin-right: 4px; }
 
 .TabbedPanelsTab {
   background-color: #000 !important; }
