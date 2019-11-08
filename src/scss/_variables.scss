@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'play';
+    src: url('../../../recit/scss/Play-Regular.ttf') format('truetype'),
+	url('../../../recit/scss/Play-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}$font-family-sans-serif: 'Ubuntu', sans-serif !default;
+$subheadings-font-family:'Viga', sans-serif;
+$headings-font-family:"Play";
+$figuretexte: 'Ubuntu', sans-serif;
+
+$primary:#009bcd;
+$secondary:#7f3f98;
+$secondarypale:#0082C6;
+$success:#FEC100;
+$danger:#703B3B;
+$info:#61c08b;
+$warning:#FFE869;
+$light:#FDFBF7;
+$dark:#555555;
+$secondaryrecit:#59B5BE;
+$color1:#000;
+$color2:#000;
+$color3:#000;
+$color4:#000;
+$color5:#000;
+
+$white:#ffffff; //
+			 
+			 
+			 
+			 
+			 
+
+$color1:#666;
+$color2:#FFFFFF;
+$color3:#FFFFFF;
+$color4:#FFFFFF;
+$color5:#FFFFFF;
+$brand-primary: $primary;
+$body-color: #373a3c;			 
+$theme_color1:#009bcd;
+$theme_color2:#FEC100;
+$theme_color3:#7f3f98;
+$theme_color4:#61c08b;
+$theme_color5:#494755;					  
+$btn-radius: 30px;
+$navbar-header-color: #fff !default;
+
+$headings-font-family: $font-family-sans-serif !default;
+$headings-font-weight: 400 !default;
+$headings-color: $primary !default;
+
+$body-bg: #eef5f9 !default;
+
+$card-border-radius: 0 !default;
+$card-border-color: #d7dfe3 !default;
+
+$navbar-height: 50px !default;
+$navbar-bg: $primary !default;
+$navbar-bg-hover: $secondary !default;
+$navbar-separator: $secondary !default;
+
+$page-max-width: 1520px;						 
+$calendarEventCategoryColor: #fc4b6c !default;
+$calendarEventCourseColor: #7460ee !default;
+$calendarEventGlobalColor: #1e88e5 !default;
+$calendarEventGroupColor: #ffb22b !default;
+$calendarEventUserColor: #26c6da !default;
+
+$m-login-padding: 10px;
+$m-login-boxheight: 350px;
+$m-card-padding: 1.25rem;
+$m-moodle-color: #f98012 !default;
+$m-facebook-color: #3b5998 !default;
+$m-twitter-color: #55acee !default;
+$m-youtube-color: #cc181e !default;
+$m-googleplus-color: #d34836 !default;
+$m-linkedin-color: #007bb5 !default;
+$m-instagram-color: #8a3ab9 !default;
+
+$carousel-control-color: #fff !default;
+$carousel-control-prev-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'#fff\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z\'/%3E%3C/svg%3E" !default;
+$carousel-control-next-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'#fff\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z\'/%3E%3C/svg%3E" !default;
+
+/*-------------------------------*\
+    PAGE HEADER
+\*-------------------------------*/
+/*#page-header {
+	height:130px!important;
+    .card {
+		height:130px;
+		background: #000000;
+		background-image: url("https://recitfad.ca/depot/st/banierest.png");
+		background-repeat: no-repeat;
+		background-size: 2017px 130px !important;
+  background-position: top right !important;
+     }
+}*/
+
+.col-12.card {
+    height: 425px;
+    background-image: url(https://michiganmoodle.dearbornschools.org/wp-content/uploads/sites/2257/2016/11/moodlebkg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row {
+	background-color: rgba(255,255,255,0.0);}
+	   .jumbotron.hero {
+        color: #fcfcfc;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://recitfad.ca/depot/bckgng1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: table;
+        border-radius: 15px;
+    }
+  .jumbotron.hero-sm {
+        color: #000;
+        background-color: rgba(255,255,255,0.7);
+        }
+    .jumbotron.hero .heading {
+        font-weight: 900;
+    }
+    .jumbotron.hero .heading > span {
+        color: #fff;
+    }
+    .jumbotron.hero .subheading {
+        font-weight: 700;
+        color: #fff;
+    }
+    .header-features {
+        padding: 20px 10px 10px;
+    }
+    .header-features > div {
+        padding: 0 50px;
+    }
+    .header-features > div > div {
+        border-left: 1px solid #2874A6;
+        border-right: 1px solid #2874A6;
+    }
+    .header-features > div > span {
+        font-size: 32px;
+    }
+    .header-features p {
+        font-size: 14px;
+    }
+    .hero-row.hero-bottom {
+        vertical-align: bottom;
+    }
+    .jumbotron.hero-sm.fa {
+        font-size: 2.4em;
+    }
+    .text_padH {
+        padding: 0 10px;
+    }
+    .corner_menu .dropdown-menu a {
+        color: rgba(255,255,255,.5);
+    }
+    .corner_menu .dropdown-menu a:hover {
+        color: rgba(255,255,255,.75);
+        background: transparent;
+    }
+	
+	.round-corners-shadow .row .figure, .round-corners-shadow .row img {
+    display: block !important;
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+    border-radius: 16px !important;
+    margin-bottom: 40px !important;
+    overflow: hidden !important;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+}
+/*-------------------------------*\
+    Glosaire
+\*-------------------------------*/
+/*#intro.box.generalbox.py-3 p:first-of-type  {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $white;
+    background: $theme_color1;
+}
+#intro.box.generalbox.py-3 p:first-of-type {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+#intro.box.generalbox.py-3 p:first-of-type:before {
+    display: block;
+    content: '';
+    width: 47px;
+    height: 54px;
+    margin: 0 auto 5px;
+    background: url("https://recitfad.ca/widgets/assets/images/ico-glossaire.svg") ;
+	background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+*/
+
+
+#page-mod-quiz-view .card-body h2:first-of-type {
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+	vertical-align: baseline;
+    color: $white;
+    background: $theme_color1;
+}
+#page-mod-quiz-view .card-body h2:first-of-type {
+	/*margin-left: 50px;*/
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 22px;
+    /*text-align: center;*/
+}
+#page-mod-quiz-view .card-body h2:first-of-type:before {
+    display: inline-block;
+		/*padding-right:50px;*/
+    content: '';
+    width: 47px;
+    height: 47px;
+	vertical-align: middle;
+   /* margin: 0 auto 5px;*/
+    background: url("https://recitfad.ca/widgets/assets/images/target.svg");
+	background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.form.form-inline.m-b-1 {
+    padding: 20px 20px 0;
+    background: $theme_color2;
+    margin-bottom: 0 !important;
+}
+.form.form-inline.m-b-1 .form-control {
+    border: solid 1px $theme_color1;
+    margin: 0 4px 4px 0;
+}
+.form.form-inline.m-b-1 .form-control:focus {
+    border-color: $theme_color1;
+    -webkit-box-shadow: 0 0 0 .2rem $theme_color4;
+    box-shadow: 0 0 0 .2rem $theme_color4;
+}
+.form.form-inline.m-b-1 input[type="radio"], .form.form-inline.m-b-1 input[type="checkbox"] {
+    margin-right: 4px;
+}
+.btn.btn-secondary.m-r-1,
+.form.form-inline.m-b-1 .btn.btn-secondary {
+    color: $white;
+    border-color: transparent;
+    font-weight: 700;
+    margin-bottom: 4px;
+    background: $theme_color1;
+}
+.btn.btn-secondary.m-r-1:hover,
+.btn.btn-secondary.m-r-1:active,
+.form.form-inline.m-b-1 .btn.btn-secondary:hover,
+.form.form-inline.m-b-1 .btn.btn-secondary:active {
+    color: $white;
+    background: $theme_color4;
+}
+.singlebutton.glossaryaddentry {
+    display: block;
+}
+.singlebutton.glossaryaddentry .form.form-inline.m-b-1 {
+    padding-bottom: 20px;
+}
+.glossaryexplain {
+    padding-top: 20px;
+}
+/*-------------------------------*\
+\*-------------------------------*/
+/*-------------------------------*\
+    Math question
+\*-------------------------------*/
+.alert-info, #page-admin-index .releasenoteslink, #adminsettings .form-overridden, .que .formulation, .assignfeedback_editpdf_widget .label {
+    color: #373a3c ;
+    background-color: #f1f1f1 ;
+    border: solid 1px #ccc ;
+}
+
+/*.submit {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(135deg,#fbfbfb 0%,#dee8d2 29.58235359982085%,#edf4e5 49%,#cddbbd 67.92072556264695%, #a6b98f 100%);
+  border-radius: 5px;
+  border: 1px solid #4e8918;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px #ffffff,0px 1px 3px rgba(0,0,0,0.3);
+  color: #4e8918;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0%,0%,0%,0.4)
+  }
+.submit > div {
+  color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+.submit > i {
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }*/
+
+
+
+@media screen and (min-width: 768px) {
+    #intro.box.generalbox.py-3 p:before {
+        display: inline-block;
+        margin: 0 12px 0 0;
+        float: left;
+    }
+    #intro.box.generalbox.py-3 p {
+        font-size: 27px;
+        line-height: 54px;
+        text-align: left;
+    }
+}
+figure.figure {
+    display: block !important;
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+    border-radius: 16px !important;
+    margin-bottom: 40px !important;
+    overflow: hidden !important;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+    box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+}
