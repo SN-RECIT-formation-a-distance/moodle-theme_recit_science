@@ -43,5 +43,5 @@ $plugin->component = 'theme_recit_science';
  
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [                                                                                                           
-    'theme_recit' => '2019072400'                                                                                                   
+    'theme_recit' => '2019110800'                                                                                                   
 ];

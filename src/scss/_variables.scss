@@ -1,4 +1,7 @@
-@font-face {
+/**************************************
+ * FONTS
+ *************************************/
+ @font-face {
     font-family: 'play';
     src: url('../../../recit/scss/Play-Regular.ttf') format('truetype'),
 	url('../../../recit/scss/Play-Bold.ttf') format('truetype');
@@ -9,7 +12,10 @@ $subheadings-font-family:'Viga', sans-serif;
 $headings-font-family:"Play";
 $figuretexte: 'Ubuntu', sans-serif;
 
-$primary:#009bcd;
+/**************************************
+ * COLORS
+ *************************************/
+$enable-gradients: true;$primary:#009bcd;
 $secondary:#7f3f98;
 $secondarypale:#0082C6;
 $success:#FEC100;
@@ -18,85 +24,18 @@ $info:#61c08b;
 $warning:#FFE869;
 $light:#FDFBF7;
 $dark:#555555;
-$secondaryrecit:#59B5BE;
+
 $color1:#000;
 $color2:#000;
 $color3:#000;
 $color4:#000;
 $color5:#000;
-$black: #000;
-$white:#ffffff; //
+
 			 
 			 
 			 
 			 
 			 
-
-$color1:#666;
-$color2:#FFFFFF;
-$color3:#FFFFFF;
-$color4:#FFFFFF;
-$color5:#FFFFFF;
-$brand-primary: $primary;
-$body-color: #373a3c;			 
-$theme_color1:#009bcd;
-$theme_color2:#FEC100;
-$theme_color3:#7f3f98;
-$theme_color4:#61c08b;
-$theme_color5:#494755;					  
-$btn-radius: 30px;
-$navbar-header-color: #fff !default;
-
-$headings-font-family: $font-family-sans-serif !default;
-$headings-font-weight: 400 !default;
-$headings-color: $primary !default;
-
-$body-bg: #eef5f9 !default;
-
-$card-border-radius: 0 !default;
-$card-border-color: #d7dfe3 !default;
-
-$navbar-height: 50px !default;
-$navbar-bg: $primary !default;
-$navbar-bg-hover: $secondary !default;
-$navbar-separator: $secondary !default;
-
-$page-max-width: 1520px;						 
-$calendarEventCategoryColor: #fc4b6c !default;
-$calendarEventCourseColor: #7460ee !default;
-$calendarEventGlobalColor: #1e88e5 !default;
-$calendarEventGroupColor: #ffb22b !default;
-$calendarEventUserColor: #26c6da !default;
-
-$m-login-padding: 10px;
-$m-login-boxheight: 350px;
-$m-card-padding: 1.25rem;
-$m-moodle-color: #f98012 !default;
-$m-facebook-color: #3b5998 !default;
-$m-twitter-color: #55acee !default;
-$m-youtube-color: #cc181e !default;
-$m-googleplus-color: #d34836 !default;
-$m-linkedin-color: #007bb5 !default;
-$m-instagram-color: #8a3ab9 !default;
-
-$carousel-control-color: #fff !default;
-$carousel-control-prev-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'#fff\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z\'/%3E%3C/svg%3E" !default;
-$carousel-control-next-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'#fff\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z\'/%3E%3C/svg%3E" !default;
-
-/*-------------------------------*\
-    PAGE HEADER
-\*-------------------------------*/
-/*#page-header {
-	height:130px!important;
-    .card {
-		height:130px;
-		background: #000000;
-		background-image: url("https://recitfad.ca/depot/st/banierest.png");
-		background-repeat: no-repeat;
-		background-size: 2017px 130px !important;
-  background-position: top right !important;
-     }
-}*/
 
 .col-12.card {
     height: 425px;
@@ -255,18 +194,7 @@ $carousel-control-next-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'
 
 
 
-@media screen and (min-width: 768px) {
-    #intro.box.generalbox.py-3 p:before {
-        display: inline-block;
-        margin: 0 12px 0 0;
-        float: left;
-    }
-    #intro.box.generalbox.py-3 p {
-        font-size: 27px;
-        line-height: 54px;
-        text-align: left;
-    }
-}
+
 figure.figure {
     display: block !important;
     -webkit-border-radius: 16px !important;
