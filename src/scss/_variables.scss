@@ -15,21 +15,26 @@ $figuretexte: 'Ubuntu', sans-serif;
 /**************************************
  * COLORS
  *************************************/
-$enable-gradients: true;$primary:#009bcd;
-$secondary:#7f3f98;
-$secondarypale:#0082C6;
-$success:#FEC100;
-$danger:#703B3B;
-$info:#61c08b;
-$warning:#FFE869;
-$light:#FDFBF7;
-$dark:#555555;
-
-$color1:#000;
-$color2:#000;
-$color3:#000;
-$color4:#000;
-$color5:#000;
+ $primary:#009bcd;
+ $secondary:#7f3f98;
+ $secondarypale:#0082C6;
+ $success:#FEC100;
+ $danger:#703B3B;
+ $info:#61c08b;
+ $warning:#FFE869;
+ $light:#FDFBF7;
+ $dark:#555555;
+ $secondaryrecit:#59B5BE;
+ $color1:#000;
+ $color2:#000;
+ $color3:#000;
+ $color4:#000;
+ $color5:#000;
+ 
+ $theme_color1:#009bcd;
+ $theme_color2:#FEC100;
+ $theme_color3:#7f3f98;
+ $theme_color4:#61c08b;
 
 			 
 			 
@@ -119,7 +124,7 @@ $color5:#000;
 
 
 
-.btn.btn-secondary.m-r-1,
+/*btn.btn-secondary.m-r-1,
 .form.form-inline.m-b-1 .btn.btn-secondary {
     color: $white;
     border-color: transparent;
@@ -133,7 +138,7 @@ $color5:#000;
 .form.form-inline.m-b-1 .btn.btn-secondary:active {
     color: $white;
     background: $theme_color4;
-}
+}*/
 .singlebutton.glossaryaddentry {
     display: block;
 }
