@@ -2,3 +2,5 @@
 *.css
 src/style/recit-science.css
 src/style/recit-science.css.map
+create-zip.bat
+theme_recit-science.zip
