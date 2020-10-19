@@ -15,6 +15,7 @@ $figuretexte: 'Ubuntu', sans-serif;
 /**************************************
  * COLORS
  *************************************/
+ /* original RÉCIT SCIENCE
  $primary:#009bcd;
  $primaryBold: #046c8d;
  $secondary:#7f3f98;
@@ -27,7 +28,7 @@ $figuretexte: 'Ubuntu', sans-serif;
  $light:#FDFBF7;
  $dark:#555555;
  $secondaryrecit:#59B5BE;
- $color1:#000;
+ $color1:#7f0600;
  $color2:#000;
  $color3:#000;
  $color4:#000;
@@ -37,8 +38,29 @@ $figuretexte: 'Ubuntu', sans-serif;
  $theme_color2:#FEC100;
  $theme_color3:#7f3f98;
  $theme_color4:#61c08b;
-
-			 
+*/
+ $primary:#0069bf;
+ $primaryBold: #022f53;
+ $secondary:#e69321;
+ $secondaryBold: #8a5205;
+ $secondarypale:#eadaf0;
+ $success:#FEC100;
+ $danger:#703B3B;
+ $info:#61c08b;
+ $warning:#FFE869;
+ $light:#FDFBF7;
+ $dark:#555555;
+ $secondaryrecit:#59B5BE;
+ $color1:#7f0600;
+ $color2:#000;
+ $color3:#000;
+ $color4:#000;
+ $color5:#000;
+ 
+ $theme_color1:#009bcd;
+ $theme_color2:#FEC100;
+ $theme_color3:#7f3f98;
+ $theme_color4:#68b459;			 
 			 
 			 
 			 
