@@ -53,3 +53,4 @@ $THEME->sheets[] = "recit-science";
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';  
 $THEME->requiredblocks = ''; 
+$THEME->yuicssmodules = array();
