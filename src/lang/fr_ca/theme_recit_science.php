@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 // A description shown in the admin theme selector.                                                                                 
 $string['choosereadme'] = 'Theme recit_science est un enfant de Recit';                
 // The name of our plugin.                                                                                                          
-$string['pluginname'] = 'Recit science';                                                                                                    
+$string['pluginname'] = 'RÉCIT science';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Droit';
