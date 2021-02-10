@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
  
 // This is the version of the plugin.                                                                                               
 
-$plugin->version = 2021012200;
+$plugin->version = 2021021000;
 
 // This is the named version.
-$plugin->release = 'R11-V1.11.1';  
+$plugin->release = 'R12-V1.12.0';  
 
 // This is a stable release.
 $plugin->maturity = MATURITY_BETA;                                                                                                    
@@ -43,6 +43,6 @@ $plugin->requires = 2018050800;
 $plugin->component = 'theme_recit_science';                                                                                                 
  
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
-$plugin->dependencies = [                                                                                                           
-    'theme_recit' => 2021012200                                                                                                   
+$plugin->dependencies = [                                                                                                         
+    'theme_recit' => 2021021000                                                                                                   
 ];
