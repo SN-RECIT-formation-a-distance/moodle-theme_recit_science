@@ -1,0 +1,231 @@
+/**************************************
+ * FONTS
+ *************************************/
+ $font-family-sans-serif: 'Ubuntu', sans-serif;
+ $font-family-text: 'Ubuntu', sans-serif;
+ $font-family-text-size: .9rem;
+ $headings-font-family: 'Viga', cursive;
+ $subheadings-font-family: 'Viga', sans-serif;
+ $figuretexte: 'Ubuntu', sans-serif;
+
+ 
+ /**************************************
+  * COLORS
+  *************************************/
+$enable-gradients: true;
+$primary:#0069bf;
+$primaryBold: #022f53;
+$secondary:#e69321;
+$secondaryBold: #8a5205;
+$secondarypale:#eadaf0;
+$success:#FEC100;
+$danger:#703B3B;
+$info:#61c08b;
+$warning:#FFE869;
+$light:#FDFBF7;
+$dark:#555555;
+$secondaryrecit:#59B5BE;
+
+$color1:#7f0600;
+$color2:#000;
+$color3:#000;
+$color4:#000;
+$color5:#000;
+
+$theme_color1:#007a76;
+$theme_color2:#FEC100;
+$theme_color3:#7f3f98;
+$theme_color4:#68b459;
+$theme_color5:#494755;
+
+$secondarycomplement:$warning;
+$primarycomplement:$danger;
+$white:#FFFFFF;
+$black:#000;
+$successpale:#EDF4CC;
+$dangerpale:#F9E2E3; 
+$info:#FBB040;
+$primarypale:#E9E8E9;
+$infopale:#FEF5E7;
+
+/**************************************
+* GENERAL
+*************************************/
+
+$headings-font-family: $headings-font-family !default;
+$subheadings-font-family: $headings-font-family !default;
+
+// 6. Collapsible
+// ==========================================================================
+
+$collapsible-height: 3rem !default;
+$collapsible-line-height: $collapsible-height !default;
+$collapsible-header-color: #fff !default;
+$collapsible-border-color: #ddd !default;
+
+// 12. Grid
+// ==========================================================================
+
+$num-cols: 12 !default;
+$gutter-width: 1.5rem !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width*2)/3 !default;
+ 
+// 14. Side Navigation
+// ==========================================================================
+
+$sidenav-width: 300px !default;
+$sidenav-font-size: 14px !default;
+$sidenav-font-color: rgba(0,0,0,.87) !default;
+$sidenav-bg-color: #fff !default;
+$sidenav-padding: 16px !default;
+$sidenav-item-height: 48px !default;
+$sidenav-line-height: $sidenav-item-height !default;
+$btn-radius: 30px;
+$font-family-text: 'Ubuntu', sans-serif;
+$font-family-text-size: .9rem;
+$headings-font-size: 2.34375rem;
+$top-navbar-height: 67px;
+$course-banner-max-height: 150px;
+$card-border-radius: 0 !default;
+$page-max-width: 1500px;
+$nav-color: #343a40;
+$body-bg: #eef5f9 !default;
+$body-color: #373a3c;
+
+/* Current directory is recit2/scss */
+@import "./recit/import";
+@import "./deprecated/editorhtml";
+@import "./deprecated/sous-theme";
+
+
+.col-12.card {
+  height: 425px;
+  background-image: url(https://michiganmoodle.dearbornschools.org/wp-content/uploads/sites/2257/2016/11/moodlebkg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.row {
+background-color: rgba(255,255,255,0.0);}
+   .jumbotron.hero {
+      color: #fcfcfc;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-image: url(https://recitfad.ca/depot/bckgng1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: table;
+      border-radius: 15px;
+  }
+.jumbotron.hero-sm {
+      color: #000;
+      background-color: rgba(255,255,255,0.7);
+      }
+  .jumbotron.hero .heading {
+      font-weight: 900;
+  }
+  .jumbotron.hero .heading > span {
+      color: #fff;
+  }
+  .jumbotron.hero .subheading {
+      font-weight: 700;
+      color: #fff;
+  }
+  .header-features {
+      padding: 20px 10px 10px;
+  }
+  .header-features > div {
+      padding: 0 50px;
+  }
+  .header-features > div > div {
+      border-left: 1px solid #2874A6;
+      border-right: 1px solid #2874A6;
+  }
+  .header-features > div > span {
+      font-size: 32px;
+  }
+  .header-features p {
+      font-size: 14px;
+  }
+  .hero-row.hero-bottom {
+      vertical-align: bottom;
+  }
+  .jumbotron.hero-sm.fa {
+      font-size: 2.4em;
+  }
+  .text_padH {
+      padding: 0 10px;
+  }
+  .corner_menu .dropdown-menu a {
+      color: rgba(255,255,255,.5);
+  }
+  .corner_menu .dropdown-menu a:hover {
+      color: rgba(255,255,255,.75);
+      background: transparent;
+  }
+
+.round-corners-shadow .row .figure, .round-corners-shadow .row img {
+  display: block !important;
+  -webkit-border-radius: 16px !important;
+  -moz-border-radius: 16px !important;
+  border-radius: 16px !important;
+  margin-bottom: 40px !important;
+  overflow: hidden !important;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+  box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5) !important;
+}
+
+
+
+
+/*btn.btn-secondary.m-r-1,
+.form.form-inline.m-b-1 .btn.btn-secondary {
+  color: $white;
+  border-color: transparent;
+  font-weight: 700;
+  margin-bottom: 4px;
+  background: $theme_color1;
+}
+.btn.btn-secondary.m-r-1:hover,
+.btn.btn-secondary.m-r-1:active,
+.form.form-inline.m-b-1 .btn.btn-secondary:hover,
+.form.form-inline.m-b-1 .btn.btn-secondary:active {
+  color: $white;
+  background: $theme_color4;
+}*/
+.singlebutton.glossaryaddentry {
+  display: block;
+}
+.singlebutton.glossaryaddentry .form.form-inline.m-b-1 {
+  padding-bottom: 20px;
+}
+.glossaryexplain {
+  padding-top: 20px;
+}
+/*-------------------------------*\
+\*-------------------------------*/
+/*-------------------------------*\
+  Math question
+\*-------------------------------*/
+.alert-info, #page-admin-index .releasenoteslink, #adminsettings .form-overridden, .que .formulation, .assignfeedback_editpdf_widget .label {
+  color: #373a3c ;
+  background-color: #f1f1f1 ;
+  border: solid 1px #ccc ;
+}
+
+
+
+figure.figure_custom {
+  display: block !important;
+  -webkit-border-radius: 16px !important;
+  -moz-border-radius: 16px !important;
+  border-radius: 16px !important;
+  margin-bottom: 40px !important;
+  overflow: hidden !important;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+  box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+}
