@@ -96,7 +96,6 @@ $body-color: #373a3c;
 /* Current directory is recit2/scss */
 @import "./recit/import";
 @import "./deprecated/editorhtml";
-@import "./deprecated/sous-theme";
 
 
 .col-12.card {
@@ -228,4 +227,10 @@ figure.figure_custom {
   -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
   -moz-box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
   box-shadow: 0px 10px 15px 0px rgba(0, 125, 121,0.5) !important;
+}
+body.theme-recit-science {
+    .page-header-headings h1 {
+        color: $white!important;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
