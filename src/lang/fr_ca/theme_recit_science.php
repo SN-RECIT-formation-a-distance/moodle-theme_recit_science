@@ -31,3 +31,4 @@ $string['choosereadme'] = 'Theme recit_science est un enfant de Recit';
 $string['pluginname'] = 'RÉCIT science';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Droit';
+$string['privacy:metadata'] = 'Ce plugin ne conserve aucune donnée personelle.';
