@@ -26,8 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
  
 $THEME->name = 'recit_science';
-$THEME->sheets = [];                                                                                                                
-$THEME->editor_sheets = [];           
 $THEME->haseditswitch = true;                                                                                                     
 $THEME->parents = ['recit2'];
 $THEME->scss = function($theme) {
